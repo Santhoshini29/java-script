@@ -1,0 +1,4 @@
+
+//loging in js 
+var naame = "NAME";
+console.log(naame);
