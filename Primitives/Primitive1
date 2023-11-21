@@ -1,0 +1,15 @@
+
+
+/*   variables
+In JavaScript, a variable is a named storage location for data. 
+You can think of it as a container that holds a value.
+ Variables are used to store and manipulate data in your programs.*/
+
+//var (older way, still works):
+var variableName = value;
+
+//let (used for variables whose values can be reassigned):
+let variableName = value;
+
+//const (used for variables whose values should not be reassigned):
+const variableName = value;
