@@ -1,9 +1,15 @@
-function fibonacii(start,end){
-var sum=0;
-for(var i=start;i<=end;i++){
- sum=sum+i;
-}
-return sum
-}
-var user= fibonacii(1,3);
-console.log(user);
+function generateFibonacci(n) {
+    let fibonacciSeries = [0, 1];
+  
+    for (let i = 2; i < n; i++) {
+      let nextNumber = fibonacciSeries[i - 1] + fibonacciSeries[i - 2];
+      fibonacciSeries.push(nextNumber);
+    }
+  
+    return fibonacciSeries;
+  }
+  
+  // Example: Generate the first 10 Fibonacci numbers
+  let result = generateFibonacci(10);
+  console.log(result);
+  
