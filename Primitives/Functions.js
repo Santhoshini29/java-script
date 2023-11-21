@@ -13,7 +13,7 @@ for (var i=0;i<user.length;i++) {
  // const toLog= (user[i].naame+"'s age is "+user[i].age);
  //console.log(toLog)
 
-  //using function 
+  //using function --DRY--dont repeat yourself
   function PrintAllUsers(users){
     for (var i=0;i<user.length;i++) {
         console.log(user[i].naame+"'s age is "+user[i].age);
