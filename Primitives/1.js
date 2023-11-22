@@ -27,3 +27,16 @@ let count = 10;
 count = count + 1;
 console.log(count);  // Output: 11
 
+//DATATYPES 
+
+// Variables with different datatypes
+
+var userName = "Harkirat" // string
+var coursePrice = 5999 // number
+var purchased = true // boolean
+var completeUserData = { // Object(key-value pairs)
+	name : "Harkirat",
+	coursePrice : 5999 ,
+	purchased : true
+}	
+var users = [ "Rookie", "Harkirat" ] // array
