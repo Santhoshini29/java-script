@@ -8,7 +8,7 @@ function createPattern(noofrows){
         }
         console.log(string)
     }
-
+   
 }
 
  //createPattern(10);

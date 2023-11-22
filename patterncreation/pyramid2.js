@@ -9,6 +9,7 @@ function patternCreation(noofrows){
 
         console.log (str)
     }
+    
 }
 var answer =patternCreation(10);
 console.log(answer)
