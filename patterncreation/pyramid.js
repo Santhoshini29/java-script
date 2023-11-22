@@ -11,6 +11,6 @@ function createPattern(noofrows){
 
 }
 
- createPattern(10);
- // var answer =createPattern(10);
-// console.log(answer);
+ //createPattern(10);
+    var answer =createPattern(10);
+    console.log(answer)
