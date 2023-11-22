@@ -5,12 +5,12 @@
 
     let sum =0;
     for (var i=0;i<n;i++){
-        sum +=1;
+        sum +=i;
     }
      console.log (sum)
  }
   
- 
+ sum(50);
  //assigning ascync task --- read from a file using nodejs lib
 
  function fileIsRead(err,fileContent){
