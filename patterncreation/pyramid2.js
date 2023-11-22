@@ -10,4 +10,5 @@ function patternCreation(noofrows){
         console.log (str)
     }
 }
-patternCreation(10);
+var answer =patternCreation(10);
+console.log(answer)
