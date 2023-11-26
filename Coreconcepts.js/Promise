@@ -29,3 +29,16 @@ return answer;
 
 var medicine = medicine1Get();
 console.log (medicine);
+// example 
+function PromiseBody(resolve){
+    setTimeout(resolve,5000);
+}
+function medicine1Get(){
+    var answer = new promise (PromiesBody)
+    return answer;
+}
+function printThing(){
+console.log("medicine 1 received !!");
+}
+var medicine = medicine1Get();
+medicine.then(printThing)
