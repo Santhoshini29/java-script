@@ -31,3 +31,5 @@ console.log(answer);
      }
    var ans = isAnagram("hii","hello");
    console.log(ans);
+   //methos 2
+   
